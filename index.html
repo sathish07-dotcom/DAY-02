@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in html</title>
+</head>
+<body>
+    <table border="5" align="center">
+        <caption>
+            <h1><mark>Table</mark></h1>
+        </caption>
+        <tr>
+            <th>s.no</th>
+            <th>s.name</th>
+            <th>age</th>
+            <th>dob</th>
+            <th>cource</th>
+            <th>fee</th>
+            <th>address</th>
+            <th>rank</th>
+
+        </tr>
+        <tr>
+            <td>20001</td>
+            <td>sagar</td>
+            <td>22</td>
+            <td>05-07-2002</td>
+            <td>mca</td>
+            <td>$40,000</td>
+            <td>keshanapalli</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>20002</td>
+            <td>sathish</td>
+            <td>22</td>
+            <td>15-09-2002</td>
+            <td>mca</td>
+            <td>$40,000</td>
+            <td>godavarikhani</td>
+            <td>400</td>
+        </tr>
+        <tr>
+            <td>20003</td>
+            <td>rahul</td>
+            <td>22</td>
+            <td>05-01-2002</td>
+            <td>mca</td>
+            <td>$40,000</td>
+            <td>peddapalli</td>
+            <td>700</td>
+        </tr>
+        <tr>
+            <td>20004</td>
+            <td>laddu</td>
+            <td>22</td>
+            <td>05-012-2002</td>
+            <td>mca</td>
+            <td>$40,000</td>
+            <td>keshanapalli</td>
+            <td>290</td>
+        </tr>
+        <tr>
+            <td>20005</td>
+            <td>akhil</td>
+            <td>22</td>
+            <td>05-03-2002</td>
+            <td>mca</td>
+            <td>$40,000</td>
+            <td>mutharam</td>
+            <td>490</td>
+        </tr>
+    </table>
+    <br> <br><br>
+    <table border="3" align="center">
+        <caption>
+            <h1><mark>Rowspan</mark></h1>
+        </caption>
+        <tr>
+            <th>College_Name</th>
+            <th>University_Name</th>
+            <th>Course</th>
+            <th>Fee</th>
+        </tr>
+        <tr>
+            <td>UASC</td>
+            <td rowspan="3">KU</td>
+            <td rowspan="3">MCA</td>
+            <td rowspan="3">40,000</td>
+        </tr>
+        <tr>
+            <td>BITS</td>
+        </tr>
+        <tr>
+            <td>KITS</td>
+        </tr>
+        <tr>
+            <td>UASC</td>
+            <td rowspan="3">KU</td>
+            <td rowspan="3">MBA</td>
+            <td rowspan="3">50,000</td>
+        </tr>
+        <tr>
+            <td>BITS</td>
+        </tr>
+        <tr>
+            <td>KITS</td>
+        </tr>
+        <tr>
+            <td>UASC</td>
+            <td rowspan="3">OU</td>
+            <td rowspan="3">MCA</td>
+            <td rowspan="3">30,000</td>
+        </tr>
+        <tr>
+            <td>BITS</td>
+        </tr>
+        <tr>
+            <td>KITS</td>
+        </tr>
+        <tr>
+            <td>UASC</td>
+            <td rowspan="3">OU</td>
+            <td rowspan="3">MBA</td>
+            <td rowspan="3">40,000</td>
+        </tr>
+        <tr>
+            <td>BITS</td>
+        </tr>
+        <tr>
+            <td>KITS</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table border="5" align="center">
+        <caption>
+            <h1><mark>Colspan</mark></h1>
+        </caption>
+        <tr>
+            <th>s.no</th>
+            <th>s.name</th>
+            <th colspan="2">marks</th>
+            <th>total marks</th>
+            <th colspan="2">p.name</th>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>sagar</td>
+            <td>20</td>
+            <td>60</td>
+            <td>80</td>
+            <td>rajaiah</td>
+            <td>rajitha</td>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>sagar</td>
+            <td>20</td>
+            <td>60</td>
+            <td>80</td>
+            <td>rajaiah</td>
+            <td>rajitha</td>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>sagar</td>
+            <td>20</td>
+            <td>60</td>
+            <td>80</td>
+            <td>rajaiah</td>
+            <td>rajitha</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table border="4" align="center" height="350" width="800">
+        <caption><h1><mark>UASC TIME TABLE</mark></h1></caption>
+        <tr>
+            <th>Day/Period</th>
+            <th>9:30-10:20</th>
+            <th>10:20-11:10</th>
+            <th>11:10-12:00</th>
+            <th>12:00-12:40</th>
+            <th>12:40-1:30</th>
+            <th>1:30-2:20</th>
+            <th>2:20-3:10</th>
+            <th>3:10-4:00</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td>English</td>
+            <td>Maths</td>
+            <td>Chemistry</td>
+            <th rowspan="6">Lunch</th>
+            <td colspan="3">LAB</td>
+            <td>Physics</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">LAB</td>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td>Maths</td>
+            <td>SPORTS</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>Maths</td>
+            <td>Physics</td>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td colspan="3">LIBRARY</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td>Physics</td>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td colspan="3">LAB</td>
+            <td>Maths</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td colspan="3">LAB</td>
+            <td>Maths</td>
+            <td>Chemistry</td>
+            <td>English</td>
+            <td>Physics</td>
+        </tr>
+        <tr>
+            <th>Saturday</th>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td>Maths</td>
+            <td colspan="2">SEMINAR</td>
+            <td colspan="2">SPORTS</td>
+        </tr>
+
+    </table>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+</body>
+</html>
